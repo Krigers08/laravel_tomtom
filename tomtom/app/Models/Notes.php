@@ -7,5 +7,5 @@ use App\Models\Notes;
 
 class Notes extends Model
 {
-    //
+        public $fillable = ['title','content'];
 }
