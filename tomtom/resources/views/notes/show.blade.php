@@ -5,10 +5,6 @@
     <li>Id: {{ $note->id }}
     <br><strong>{{ $note->title }}</strong>
     <br>{{ $note->content }}</li>
-    <a href="/show/{id}">Show</a>
-    <a href="/index">Delete</a>
     <br><br>
 @endforeach
 </ul>
-
-

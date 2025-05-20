@@ -20,4 +20,13 @@ class NoteController extends Controller
         Notes::create(['title' => $request['title'], 'content' => $request['content']]);
         return redirect('/index');
     }
+
+    public function show(){
+        return view('notes.show');
+    }
+
+    public function destroy(){
+        Notes::destroy(['title' => $request['title'], 'content' => $request['content']]);
+        return redirect('/index');
+    }
 }

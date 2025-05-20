@@ -7,7 +7,7 @@
 <label for="text">Text</label>
 <input type="text" id="text" name="content">
 <br><br>
-<button>Submit</button>
+<button id="store">Submit</button>
 </form>
 
 
